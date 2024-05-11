@@ -31,3 +31,5 @@ jobs:
           git add results.txt
           git commit -m "Update results"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
