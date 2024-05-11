@@ -26,8 +26,8 @@ jobs:
       
       - name: Commit files
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name 'cloud-automation-marcel'
+          git config --global user.email 'cloud-automation-marcel@gmail.com'
           git add results.txt
           git commit -m "Update results"
           git push
