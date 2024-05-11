@@ -2,7 +2,8 @@ name: Fetch Data Workflow
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # This cron job runs at every minute
+    - cron: "*/5 * * * *" # This cron job runs at every minute
+  workflow_dispatch:
 
 jobs:
   fetch-and-save:
