@@ -19,3 +19,5 @@ with open("results.txt", "a") as file:
     file.write(f"Run {run_number}: {data}\n")
 
 print(f"Data for run {run_number} appended to file.")
+
+# this is a tedt
